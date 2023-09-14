@@ -4,4 +4,4 @@ The is the detailed readme.
 │   ├── about.html
 │   ├── portfolio.html
 │   ├── style.css
-│   ├── myscripts.js 
+│   ├── javascript.js 
