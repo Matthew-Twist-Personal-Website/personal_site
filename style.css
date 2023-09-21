@@ -69,10 +69,16 @@ blockquote {
 }
 footer {
     background-color: #f4f4f4;
-    padding: 20px;
+    
     bottom: 0;
     left: 0;
     right: 0;
     text-align: center;
-    z-index: index 1000;
     position: fixed; }
+
+    a:hover {
+        background-color:whitesmoke;
+      }
+    a.active {
+        color:red
+    }
