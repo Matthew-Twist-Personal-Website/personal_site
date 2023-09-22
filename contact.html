@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Matthew Twist Personal Portfolio</title>
         <link rel="stylesheet" href="style.css" />
-        <script src="javascript.js"></script>
+        <link rel="stylesheet" href="form.css" />
         
     </head>
 
@@ -27,6 +27,34 @@
          </nav>
     
         <!-- website start -->
+        <div class="contain">
+            <div style="text-align:center">
+              <h2>Contact Tech Solutions</h2>
+              <p>Leave a me a detailed message about your technical woes:</p>
+            </div>
+            
+                <div class="column">
+                  <img src="tech_support.jpeg" style="width:80%">
+                </div>
+                <div class="column">
+                    <form action="collected.php">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">United States</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">Mexico</option>
+                      </select>
+                      <label for="subject">Your tech questions.</label>
+                      <textarea id="subject" name="subject" placeholder="Tech grieviences goes here.." style="height:170px"></textarea>
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+
+
         <footer>
             <p> <img class=logo1 src="spacebook.png" height="45" width="45" alt="Logo"> </p>
         </footer>
