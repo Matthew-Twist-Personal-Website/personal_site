@@ -1,50 +1,43 @@
-
 /* navbar styling */
 
 .navbar {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content:space-between;
+    background-color: rgb(130, 132, 127);
+    color: #000000;
     align-items: center;
-    padding: 10px 10px;
-    margin:0;
-    width:100%;
-    z-index: index 1000;
-    position:fixed;
-    top: 0; 
-    padding-top:20px;
-
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .nav-left {
     display: flex;
     align-items: center;
-    margin-left: 15px;
+    float: left;
+    padding-left: 1%;
+    font-family: cursive;
 }
 
-.nav-right a {
-    color: #fff;
+.nav-right {
     text-decoration: none;
-    margin-left: 20px;
-    margin-right:50px
+    float: right;
+    padding-right: 1%;
 }
 
 .nav-right a:hover {
     text-decoration: underline;
 }
 /* Website CSS */
-*
-
 body {
     font-family: "Helvetica", sans-serif;
-    margin: 0;
-    display:flex;
+    margin: 0px;
+    display: grid;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     background-color: #4740401f;
-    
+    z-index: 1000;
+    padding-top: 5%;
 }
 
 .container {
@@ -65,6 +58,7 @@ body {
     text-align: center;
 }
 
+
 blockquote {
     font-style: italic;
     margin-top: 20px;
@@ -73,18 +67,34 @@ blockquote {
 }
 footer {
     background-color: #f4f4f4;
-    
+
     bottom: 0;
     left: 0;
     right: 0;
     text-align: center;
-    position: fixed; }
+    position: fixed;
+}
 
-    a:hover {
-        background-color:whitesmoke;
-      }
-    a.active {
-        color:red
-    }
+a {
+    color: darkviolet;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
 
-  
+a:hover {
+    background-color: whitesmoke;
+}
+a.active {
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+    padding: 35px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 60px;
+}
