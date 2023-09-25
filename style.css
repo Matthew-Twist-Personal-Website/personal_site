@@ -8,10 +8,11 @@
     width: 100%;
     position: fixed;
     top: 0;
+    max-height:15%
 }
 
 .nav-left {
-    display: flex;
+    
     align-items: center;
     float: left;
     padding-left: 1%;
@@ -31,21 +32,22 @@
 body {
     font-family: "Helvetica", sans-serif;
     margin: 0px;
-    display: grid;
+    display:flex-shrink;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 90%;
     background-color: #4740401f;
-    z-index: 1000;
-    padding-top: 5%;
+    padding-top: 1%;
 }
 
 .container {
-    max-width: 80%;
+    max-width: 100%;
+    max-height: 100%;
     background-color: #fff;
-    padding: 20%;
-    border-radius: 10px;
+    padding: 15%;
+    border-radius: 5%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display:flex;
 }
 
 .photo img {
@@ -54,7 +56,7 @@ body {
 }
 
 .content {
-    margin-top: 20%;
+    margin-top: 10%;
     text-align: center;
 }
 
@@ -98,3 +100,10 @@ nav li {
     display: inline-block;
     margin-left: 60px;
 }
+
+p {
+    padding-right:5%;
+padding-left: 5%;
+}
+
+/* Resize mobile images */
